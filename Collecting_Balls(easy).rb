@@ -11,6 +11,7 @@ numbers[0].times do |i|
   ball[i] = x_atai[i]
   A[i] = 0
   B[i] = numbers[1]
+
 end
 
 cnt = 0
