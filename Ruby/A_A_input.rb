@@ -16,8 +16,10 @@
 # ab = gets.chomp.tr(" ", "")
 
 "複数行に一つずつ要素が存在する場合"
-# numbers = []
+# c, b, a, x = readlines.map(&:to_i)
 
+
+# numbers = []
 # N.times do
 #   numbers << gets.to_i
 # end
