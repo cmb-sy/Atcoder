@@ -1,2 +1,6 @@
-# ReadMe
-Atcoder専用レポジトリ
+# Atcoder専用レポジトリ
+
+### 使用言語
+* Ruby
+* Go
+
