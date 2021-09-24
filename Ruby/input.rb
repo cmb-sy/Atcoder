@@ -25,6 +25,7 @@
 # end
 
 # a = readlines.map(&:to_i)
+
 "配列や整数で複数受け取る"
 "ただし、1つだけの場合はダメ"
 # a, b = gets.split(" ").map(&:to_i)
