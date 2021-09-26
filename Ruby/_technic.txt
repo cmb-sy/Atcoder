@@ -3,3 +3,10 @@
 
 ## 2つの配列で、2つの配列同士で被ってるのを消す
 https://stog.hatenablog.com/entry/20120225/1330167302
+
+## aからbまでの積がほしい場合
+ans = 1
+(a+1..b).each do |i|
+  puts i
+  ans *= i
+end
