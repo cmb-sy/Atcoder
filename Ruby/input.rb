@@ -32,9 +32,12 @@
 # ary = gets.split(" ").map(&:to_i)
 
 "複数行に複数個の要素が存在する場合"
-# input_ary = []
+# ary = []
 # while input = gets
-#   input_ary << input.chomp.split(' ').map(&:to_i)
+#   ary << input.chomp.split(' ').map(&:to_i)
 # end
 
+
+# n, m = gets.split.map(&:to_i)
+# a = readlines(chomp: true).map{|line| line.split(' ').map(&:to_i)}
 
