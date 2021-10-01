@@ -38,6 +38,6 @@
 # end
 
 
-# n, m = gets.split.map(&:to_i)
-# a = readlines(chomp: true).map{|line| line.split(' ').map(&:to_i)}
+# h, w = gets.split.map(&:to_i)
+# pic = readlines.map(&:chomp)
 
