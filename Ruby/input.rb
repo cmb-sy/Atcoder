@@ -41,3 +41,5 @@
 # h, w = gets.split.map(&:to_i)
 # pic = readlines.map(&:chomp)
 
+# falttenで解体すべき
+#ary = readlines(chomp: true).map{|line| line.split(' ').map(&:to_i)}
