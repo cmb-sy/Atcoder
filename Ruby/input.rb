@@ -1,5 +1,3 @@
-"""ターミナルで起動するべし"""
-
 "そのまま文字列で受け取る"
 # input = gets
 # puts input
@@ -8,7 +6,7 @@
 # input = gets.split(" ")
 # puts input
 
- "数値で受け取る"
+ "単に数値で受け取る"
 #  input = gets.to_i
 #  puts input 
 
@@ -16,18 +14,13 @@
 # ab = gets.chomp.tr(" ", "")
 
 "複数行に一つずつ要素が存在する場合"
-# c, b, a, x = readlines.map(&:to_i)
-
-
-# numbers = []
-# N.times do
-#   numbers << gets.to_i
+# n = gets.to_i
+# ary = []
+# n.times do
+#   ary << gets.to_i
 # end
 
-# a = readlines.map(&:to_i)
-
-"配列や整数で複数受け取る(横)"
-"ただし、1つだけの場合はダメ"
+"1行に複数の配列がある場合 : 配列や整数で複数受け取る(ただし、1つだけの場合はダメ)"
 # a, b = gets.split(" ").map(&:to_i)
 # ary = gets.split(" ").map(&:to_i)
 
@@ -37,9 +30,8 @@
 #   ary << input.chomp.split(' ').map(&:to_i)
 # end
 
-
-# h, w = gets.split.map(&:to_i)
-# pic = readlines.map(&:chomp)
+# a, b = gets.split.map(&:to_i)
+# ary = readlines.map(&:chomp)
 
 # falttenで解体すべき
 #ary = readlines(chomp: true).map{|line| line.split(' ').map(&:to_i)}
