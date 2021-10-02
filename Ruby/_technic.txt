@@ -23,3 +23,7 @@ end
     hundred = (i/100) % 10
     one_thousand = (i/1000) % 10
     ten_thousand = (i/10000) % 10
+
+## 文字列の先頭と末尾に特定の文字列が含まれているかを確認
+"string".start_with?("str")  # => true  
+"string".end_with?("ing")    # => true
