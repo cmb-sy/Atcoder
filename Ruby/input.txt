@@ -27,8 +27,5 @@ while input = gets
   ary << input.chomp.split(' ').map(&:to_i)
 end
 
-a, b = gets.split.map(&:to_i)
-ary = readlines.map(&:chomp)
-
 # falttenで解体すべき
 ary = readlines(chomp: true).map{|line| line.split(' ').map(&:to_i)}
