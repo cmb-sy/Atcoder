@@ -2,7 +2,7 @@
 input = gets
 
 "空白文字で区切って、配列として受け取る"
-input = gets.split(" ")
+input = gets.split("")
 
 "単に数値で受け取る"
 input = gets.to_i
