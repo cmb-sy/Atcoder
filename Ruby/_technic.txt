@@ -56,5 +56,5 @@
 ## Hash値のものを作成とTechnic
   ["a", "b", "c", "b"].tally  #=> {"a"=>1, "b"=>2, "c"=>1}
   .valuesとkeysでHash値とkeyを作成できる
-  ary.select{|a,b| v == mx}.keys.sort #aはHash,bはkey
+  ary.select{|key,hash| hash == }.keys
 
