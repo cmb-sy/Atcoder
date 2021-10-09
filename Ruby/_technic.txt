@@ -58,3 +58,6 @@
   .valuesとkeysでHash値とkeyを作成できる
   ary.select{|key,hash| hash == }.keys
 
+## 2次元配列の縦横だけを取り出す方法
+  tate = ary.transpose[0]
+  yoko = ary.transpose[1]
