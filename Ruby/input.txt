@@ -16,8 +16,10 @@ ab = gets.chomp.tr(" ", "")
 n = gets.to_i
 ary = []
 n.times do
-  ary << gets.to_i
+  ary << gets.to_i.chomp
 end
+
+ary = readlines.map(&:chomp)
 
 "1行に複数の配列がある場合 : 配列や整数で複数受け取る(ただし、1つだけの場合はダメ)"
 a, b = gets.split(" ").map(&:to_i)
