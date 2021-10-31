@@ -3,8 +3,8 @@
 "そのまま文字列で受け取る"
 input = gets
 
-"空白文字で区切って、配列として受け取る"
-input = gets.split("")
+"空白文字で区切って、配列として受け取る.　chompを入れると改行が入らない"
+input = gets.chomp.split("").map(&:to_i)
 
 "単に数値で受け取る"
 input = gets.to_i
@@ -22,8 +22,10 @@ end
 ary = readlines.map(&:chomp)
 
 "1行に複数の配列がある場合 : 配列や整数で複数受け取る(ただし、1つだけの場合はダメ)"
-a, b = gets.split(" ").map(&:to_i)
-ary = gets.split(" ").map(&:to_i)
+chompを入れると改行が入らない"
+
+a, b = gets.chomp.split(" ").map(&:to_i)
+ary = gets.chomp.split(" ").map(&:to_i)
 
 "複数行に複数個の要素が存在する場合"
 ary = []
