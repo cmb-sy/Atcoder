@@ -1,9 +1,7 @@
-# Atcoder専用レポジトリ
+## Overview
+A repository that manages Atcoder's solved problems
 
-## 概要
-* Atcoderの解いた問題を管理するレポジトリ
-
-## 使用言語
+## Language 
 * Ruby
 * Go
 
