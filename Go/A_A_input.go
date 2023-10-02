@@ -3,7 +3,6 @@
 // b c
 // s
 package main
-
 import (
 	"fmt"
 )
