@@ -34,7 +34,7 @@ function main(input) {
   const args = input.split("\n");
   
   const tmp = args[0].split(" ").map((n) => parseInt(n, 10));
-  const q = tmp[0]
+  const q = tmp[0] 
   const h = tmp[1]
   const s = tmp[2]
   const d = tmp[3]
